@@ -21,5 +21,6 @@ There are following 2 ways to reach 13
 (3, 10)</b>
 
 <b>The idea is to create a table of size n+1 to store counts of all scores from 0 to n. For every possible move (3, 5 and 10), increment values in table.</b> 
+<b> answer is calculated using table (0to13) by using loops </b>
 <b>this is all hope you done Thank you </b>
 <b>Stay Tuned</b>
