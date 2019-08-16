@@ -1,12 +1,15 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
-int countWays(int score)
+typedef long long int LL;
+
+LL countWays(LL score)
 {
-    int i;
+    LL i;
 
     //create an array to store the calculated results for smaller score
-    int result[score+1];
+    LL result[score+1];
 
     //result[i]=no. of ways to reach score i
 
@@ -32,16 +35,31 @@ int countWays(int score)
     return result[score];
 }
 
+LL readInt(){
+    string s;
+    cin>>s;
+    if(s.size() > 18)
+        return -1;
+    for (int i = 0; i < s.size(); i++) 
+        if (isdigit(s[i]) == false) 
+            return -1; 
+  
+    return stoll(s); 
+}
+
 int main()
 {
-    int score;
+    LL score;
 
     cout<<"Enter the score"<<endl;
-    cin>>score;
+    score = readInt();
 
-    cout<<"No. of ways to reach the given score are"<<endl;
-    cout<<countWays(score);
+    if(score < 0)
+        cout<<"Please enter a positive number in the limits of 1e18 \n";
+    else {
+        cout<<"No. of ways to reach the given score are"<<endl;
+        cout<<countWays(score)<<endl;
+    }
 
-    cout<<endl;
     return 0;
 }
