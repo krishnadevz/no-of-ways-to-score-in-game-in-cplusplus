@@ -35,10 +35,11 @@ LL countWays(LL score)
     return result[score];
 }
 
+    // the function checks the validation of the input
 LL readInt(){
     string s;
     cin>>s;
-    if(s.size() > 18)
+    if(s.size() > 6)
         return -1;
     for (int i = 0; i < s.size(); i++) 
         if (isdigit(s[i]) == false) 
@@ -54,8 +55,14 @@ int main()
     cout<<"Enter the score"<<endl;
     score = readInt();
 
+/*
+    Range of input allowed reduces to 1e6 as an array of length score+1 is
+    being created and limited space on the disc limits the size of integer array
+    that can be created.
+*/
+
     if(score < 0)
-        cout<<"Please enter a positive number in the limits of 1e18 \n";
+        cout<<"Please enter a positive number in the limits of 1e6 \n";
     else {
         cout<<"No. of ways to reach the given score are"<<endl;
         cout<<countWays(score)<<endl;
