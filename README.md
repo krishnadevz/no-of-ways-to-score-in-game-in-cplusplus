@@ -24,3 +24,10 @@ There are following 2 ways to reach 13
 <b> answer is calculated using table (0to13) by using loops </b>
 <b>this is all hope you done Thank you </b>
 <b>Stay Tuned</b>
+## Author
+
+* **Krishna kakade**  - [krishnakakade1999](https://github.com/krishnakakade1999)
+
+
+
+
