@@ -28,6 +28,8 @@ There are following 2 ways to reach 13
 
 * **Krishna kakade**  - [krishnakakade1999](https://github.com/krishnakakade1999)
 
+And changes in code by pull request 
 
+* **harshra raj**  - [harshraj22](https://github.com/harshraj22)
 
 
