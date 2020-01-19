@@ -26,7 +26,7 @@ There are following 2 ways to reach 13
 <b>Stay Tuned</b>
 ## Author
 
-* **Krishna kakade**  - [krishnakakade1999](https://github.com/krishnakakade1999)
+* **Krishna kakade**  - [krishnadevz](https://github.com/krishnadevz)
 
 And changes in code by pull request 
 
